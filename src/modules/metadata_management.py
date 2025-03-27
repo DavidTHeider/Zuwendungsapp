@@ -1,5 +1,5 @@
 import sqlite3
-from ..db.connection import conn, cursor
+from src.db.connection import conn, cursor
 
 def get_metadata(doc_key):
     cursor.execute("SELECT * FROM metadata WHERE doc_key=?", (doc_key,))

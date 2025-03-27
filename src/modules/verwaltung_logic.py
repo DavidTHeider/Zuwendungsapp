@@ -1,9 +1,9 @@
 import streamlit as st
 from tinydb import Query
 
-from ..db.connection import tiny_db, conn, cursor
-from .metadata_management import get_metadata, update_metadata
-from .forms import load_config, render_fields, convert_dates
+from src.db.connection import tiny_db, conn, cursor
+from src.modules.metadata_management import get_metadata, update_metadata
+from src.modules.forms import load_config, render_fields, convert_dates
 import datetime
 
 def current_datetime():

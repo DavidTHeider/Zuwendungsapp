@@ -1,8 +1,8 @@
 import streamlit as st
-from db.connection import init_db
-from modules.user_management import login, logout, ensure_default_users
-from modules.antrag_logic import buerger_view
-from modules.verwaltung_logic import verwaltung_view
+from src.db.connection import init_db
+from src.modules.user_management import login, logout, ensure_default_users
+from src.modules.antrag_logic import buerger_view
+from src.modules.verwaltung_logic import verwaltung_view
 
 def main():
     st.title("Mehrstufiges Antragsverfahren mit mehreren Anträgen")

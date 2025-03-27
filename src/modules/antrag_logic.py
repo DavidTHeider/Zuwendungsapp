@@ -3,11 +3,11 @@ import datetime
 import uuid
 
 from tinydb import Query
-from ..db.connection import tiny_db
-from .metadata_management import get_metadata, update_metadata
-from .forms import load_config, render_fields, convert_dates
-from .user_management import logout
-from ..db.connection import conn, cursor
+from src.db.connection import tiny_db
+from src.modules.metadata_management import get_metadata, update_metadata
+from src.modules.forms import load_config, render_fields, convert_dates
+from src.modules.user_management import logout
+from src.db.connection import conn, cursor
 
 def current_datetime():
     now = datetime.datetime.now()
