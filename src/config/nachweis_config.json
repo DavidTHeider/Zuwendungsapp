@@ -1,0 +1,19 @@
+{
+  "nachweis": {
+    "title": "Verwendungsnachweise",
+    "fields": {
+      "liste_verwendungsnachweise": {
+        "beschreibung": {
+          "type": "text",
+          "label": "Beschreibung",
+          "default": ""
+        },
+        "betrag": {
+          "type": "number",
+          "label": "Betrag (EUR)",
+          "default": 0
+        }
+      }
+    }
+  }
+}

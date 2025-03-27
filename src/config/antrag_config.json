@@ -1,0 +1,31 @@
+{
+  "antrag": {
+    "title": "Antragsformular",
+    "fields": {
+      "Persönliche Daten": {
+        "name": {
+          "type": "text",
+          "label": "Name",
+          "default": ""
+        },
+        "geburtsdatum": {
+          "type": "date",
+          "label": "Geburtsdatum",
+          "default": "1990-01-01"
+        }
+      },
+      "Kontakt": {
+        "telefon": {
+          "type": "phone",
+          "label": "Telefonnummer",
+          "default": ""
+        },
+        "email": {
+          "type": "email",
+          "label": "E-Mail",
+          "default": ""
+        }
+      }
+    }
+  }
+}
