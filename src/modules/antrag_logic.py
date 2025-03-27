@@ -4,8 +4,8 @@ import uuid
 
 from tinydb import Query
 from src.db.connection import tiny_db
-from src.modules.metadata_management import get_metadata, update_metadata
-from src.modules.forms import load_config, render_fields, convert_dates
+from metadata_management import get_metadata, update_metadata
+from forms import load_config, render_fields, convert_dates
 from src.modules.user_management import logout
 from src.db.connection import conn, cursor
 

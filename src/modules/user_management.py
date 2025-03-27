@@ -1,5 +1,5 @@
 import streamlit as st
-from src.modules.metadata_management import cursor, conn
+from metadata_management import cursor, conn
 
 def check_login(username, password):
     """
