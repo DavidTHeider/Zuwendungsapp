@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a61b2ea6-f76e-4adc-a779-694ea2d2cf2d" name="Changes" comment="seventh">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/metadata.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/metadata.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/.idea/dictionaries/davidheider.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/.idea/tests.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/.idea/vcs.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +108,47 @@
       <option name="project" value="LOCAL" />
       <updated>1743110864452</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="seventh">
+      <option name="closed" value="true" />
+      <created>1743247998292</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743247998292</updated>
+    </task>
+    <task id="LOCAL-00009" summary="seventh">
+      <option name="closed" value="true" />
+      <created>1743248002184</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743248002184</updated>
+    </task>
+    <task id="LOCAL-00010" summary="seventh">
+      <option name="closed" value="true" />
+      <created>1743248176348</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743248176348</updated>
+    </task>
+    <task id="LOCAL-00011" summary="seventh">
+      <option name="closed" value="true" />
+      <created>1743249150501</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1743249150501</updated>
+    </task>
+    <task id="LOCAL-00012" summary="seventh">
+      <option name="closed" value="true" />
+      <created>1743249529894</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1743249529894</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

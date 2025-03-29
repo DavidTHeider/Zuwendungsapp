@@ -4,6 +4,8 @@ Die **Zuwendungsapp** ist ein Proof-of-Concept für ein modular aufgebautes, dem
 
 **Wichtig**: Es handelt sich lediglich um ein Grundgerüst zu Demonstrations- und Testzwecken. Anpassungen im Bereich Datenhaltung, Nutzerverwaltung etc. wären vor einem Versuch, das System zu produktiv zu setzen empfohlen. Wer möchte, darf die App gerne für seine Zwecke weiterverwerten.
 
+Das Demoprojekt diente dazu, die Idee zu illustrieren, dass antragsgebundene Verwaltungsverfahren als Kollaboration auf einem gemeinsamen Nutzdatenbestand zwischen Antragstellenden und Verwaltung aufgefasst werden können, die durch Metadaten (Verfahrensschritte und Zustände im Verfahrensschritt) als "Ende-zu-Ende"-Prozess abwickelbar werden.
+
 ## Features
 
 - **Mehrstufiges Antragsverfahren:**  
@@ -128,10 +130,6 @@ cd tests
 python -m unittest test_modultests.py
 python -m unittest test_integration.py
 ```
-
-## Dokumentation
-
-Die Dokumentation befindet sich im Verzeichnis `docs/`. Dort findet sich ein kleines Demovideo, das die "Idee" illustrieren soll, ein antragsbasiertes Verwaltungsverfahren als Kollaboration zwischen Verwaltung und Antragstellenden aufzufassen.
 
 ## Contributing
 
