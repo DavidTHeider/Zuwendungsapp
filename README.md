@@ -17,9 +17,9 @@ Die **Zuwendungsapp** ist ein Proof-of-Concept für ein modular aufgebautes, dem
   - Login/Logout-Funktionalität  
   - Jeder Benutzer kann nur seine eigenen Anträge sehen und bearbeiten
 
-- **Asynchrone Datenbankzugriffe:**  
-  - SQLite-Zugriffe erfolgen asynchron mit `aiosqlite`  
-  - Synchrone TinyDB-Operationen werden in separate Threads ausgelagert (mittels `asyncio.to_thread`)
+- **Datenbankzugriffe:**  
+  - SQLite-Zugriffe erfolgen synchron mit `sqlite`. Sie dienen für die Anreicherung der Nutzdaten um Metadaten.  
+  - Synchrone TinyDB-Operationen werden für die Nutzdaten verwendet.
 
 - **Modulare Architektur:**  
   - Der Code ist in mehrere Module und Pakete unterteilt:
@@ -73,7 +73,7 @@ Zuwendungsapp/
 1. **Clone das Repository:**
 
    ```bash
-   git clone https://github.com/DeinBenutzername/zuwendungsapp.git
+   git clone https://github.com/<repositoryurl>.git
    cd zuwendungsapp
    ```
 
@@ -100,8 +100,6 @@ Navigiere in das Hauptverzeichnis und starte die Anwendung mit Streamlit:
 cd zuwendungsapp
 streamlit run src/main.py
 ```
-
-*Wichtig:* Für die asynchrone Variante sollte der Start aus dem Hauptverzeichnis erfolgen, sodass alle Modulpfade korrekt aufgelöst werden.
 
 ## Docker
 
@@ -133,7 +131,7 @@ python -m unittest test_integration.py
 
 ## Dokumentation
 
-Die Dokumentation befindet sich im Verzeichnis `docs/`. Du kannst dort beispielsweise Sphinx oder ein anderes Dokumentationssystem nutzen, um die Projektstruktur und API zu beschreiben.
+Die Dokumentation befindet sich im Verzeichnis `docs/`. Dort findet sich ein kleines Demovideo, das die "Idee" illustrieren soll, ein antragsbasiertes Verwaltungsverfahren als Kollaboration zwischen Verwaltung und Antragstellenden aufzufassen.
 
 ## Contributing
 
