@@ -45,8 +45,6 @@ Zuwendungsapp/
 ├─ data/
 │  ├─ data.json         # TinyDB-Datenbank
 │  └─ metadata.db       # SQLite-Datenbank
-├─ docs/                # Dokumentation
-│  ├─ video.mov         # Demovideo
 ├─ tests/               # Modultests und Integrationstests
 │  ├─ test_modultests.py
 │  └─ test_integration.py
