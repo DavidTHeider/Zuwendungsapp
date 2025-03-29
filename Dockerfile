@@ -10,7 +10,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Quellcode kopieren
 COPY src/ ./src/
 COPY data/ ./data/
-COPY docs/ ./docs/
 
 EXPOSE 8501
 
